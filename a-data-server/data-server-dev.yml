@@ -1,4 +1,5 @@
-
+server:
+  port: 8087
 logging:
   level:
     root: info
@@ -41,8 +42,6 @@ management:
   endpoint:
     health:
       show-details: always
-server:
-  port: 8087
 global:
   trace:
     local: false
