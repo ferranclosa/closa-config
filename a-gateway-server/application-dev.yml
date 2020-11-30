@@ -16,24 +16,6 @@ spring:
               - POST
         add-to-simple-url-handler-mapping: false
 
-
-#
-#spring:
-#  cloud:
-#    gateway:
-#      discovery:
-#        locator:
-#          enabled: true
-#          lower-case-service-id: true
-#      globalcors:
-#        corsConfigurations:
-#          '[/**]':
-#            allowedOrigins:
-#              -*
-#            allowedHeaders:
-#              - *
-#            allowedMethods:
-#              - *
 eureka:
   instance:
     preferIpAddress: true
