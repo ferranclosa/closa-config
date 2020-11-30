@@ -39,6 +39,11 @@ spring:
         cache.use_second_level_cache: false
         cache.use_query_cache: false
 management:
+  endpoints:
+    web:
+      base-path: /management
+      exposure:
+        include: *
   endpoint:
     health:
       show-details: always
