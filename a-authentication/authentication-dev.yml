@@ -15,9 +15,9 @@ spring:
   profiles:
   #active: dev
   datasource:
-    url: jdbc:mysql://localhost:3306/closa_authenticator?autoReconnect=true&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/closa_authentication?autoReconnect=true&useSSL=false&serverTimezone=UTC
     username: root
-    password: '{cipher}33308334ebb1921304d858edf2a3ec6255ab9609fd9c67821d25ede42b1fd317'
+    password: "{cipher}33308334ebb1921304d858edf2a3ec6255ab9609fd9c67821d25ede42b1fd317"
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       auto-commit: false
@@ -38,11 +38,6 @@ spring:
         dialect: org.hibernate.dialect.MySQL55Dialect
         cache.use_second_level_cache: false
         cache.use_query_cache: false
-  artemis:
-    port:
-  data:
-    cassandra:
-      port:
 management:
   endpoints:
     web:
