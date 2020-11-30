@@ -18,6 +18,7 @@ spring:
     url: jdbc:mysql://localhost:3306/closa_authentication?autoReconnect=true&useSSL=false&serverTimezone=UTC
     username: root
     password: '{cipher}33308334ebb1921304d858edf2a3ec6255ab9609fd9c67821d25ede42b1fd317'
+    #password: Martona78
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       auto-commit: false
@@ -54,3 +55,5 @@ global:
     local: false
     statistics: true
     audit: true
+encrypt:
+  key: T81SMustBeLOn9F0rF0rY0uT09etB0redt01nf1n1t
