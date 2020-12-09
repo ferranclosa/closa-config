@@ -1,3 +1,4 @@
+
 eureka:
   instance:
     preferIpAddress: true
@@ -11,11 +12,10 @@ eureka:
 logging:
   level:
     root: info
+
 spring:
-  profiles:
-  #active: dev
   datasource:
-    url: jdbc:mysql://localhost:3306/closa_authentication?autoReconnect=true&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/closa_authentication?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false&serverTimezone=UTC
     username: root
     #password: '{cipher}33308334ebb1921304d858edf2a3ec6255ab9609fd9c67821d25ede42b1fd317'
     password: Martona78
