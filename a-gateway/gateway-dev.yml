@@ -1,4 +1,3 @@
-
 eureka:
   instance:
     preferIpAddress: true
@@ -12,11 +11,9 @@ eureka:
 logging:
   level:
     root: info
-
-
 management:
   endpoints:
-    enabled-by-default: true
+ #   enabled-by-default: true
     web:
       exposure:
         include: "*"
@@ -29,3 +26,16 @@ global:
     local: false
     statistics: true
     audit: true
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: authentication
+          uri: http://localhost:8686
+          predicates:
+            - Path=/authentication/
+        - id: data
+            uri: http://localhost:8087
+            predicates:
+              - Path=/data/
