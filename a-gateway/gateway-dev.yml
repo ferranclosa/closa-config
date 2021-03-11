@@ -14,9 +14,9 @@ spring:
                 - http://localhost:8686
                 - http://localhost:9090
               allowedHeaders:
-                - content-type
-                - authorization
-                - access-control-origin
+                - Content-type
+                - Authorization
+                - Access-control-origin
               allowedMethods:
                 - GET
                 - POST

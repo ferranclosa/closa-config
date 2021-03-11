@@ -17,7 +17,7 @@ server:
 management:
   endpoints:
     web:
-      base-path: "/management"
+      base-path: "/actuator"
       exposure:
         include: "*"
   endpoint:
