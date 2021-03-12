@@ -2,7 +2,7 @@ server:
   port: 8087
 logging:
   level:
-    root: info
+    root: warning
 eureka:
   instance:
     preferIpAddress: true
