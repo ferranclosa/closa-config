@@ -53,3 +53,13 @@ global:
     local: false
     statistics: true
     audit: true
+jwt:
+  token:
+    validity: 900000
+    prefix: Bearer
+  header-string: Authorization
+  signing:
+    key: T81SMustBeLOn9F0rF0rY0uT09etB0redt01nf1n1tWithaBSOLuteoreZ
+  authorities:
+    key: roles
+    level: level
