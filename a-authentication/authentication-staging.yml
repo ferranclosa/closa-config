@@ -8,7 +8,7 @@ eureka:
       enabled: true
     registerWithEureka: true
     serviceUrl:
-      defaultZone: https://closa-eureka-service.herokuapp.com:8761/eureka/
+      defaultZone: https://closa-eureka-service.herokuapp.com/eureka/
 logging:
   level:
     root: info
@@ -16,8 +16,7 @@ logging:
 spring:
   datasource:
    # uri: jdbc:postgres://isbzaldjzwoaly:da6d83176e47d0bc15aa0914694dca610147c148226d7361b1b09ef490f144ab@ec2-18-202-1-222.eu-west-1.compute.amazonaws.com:5432/d948qsjguepq4u
-    url: jdbc:postgres://ec2-18-202-1-222.eu-west-1.compute.amazonaws.com:5432/d948qsjguepq4u
-
+    url: jdbc:postgresql://ec2-18-202-1-222.eu-west-1.compute.amazonaws.com:5432/d948qsjguepq4u
     #url: jdbc:mysql://localhost:3306/closa_authentication?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false&serverTimezone=UTC
     username: isbzaldjzwoaly
     #password: '{cipher}33308334ebb1921304d858edf2a3ec6255ab9609fd9c67821d25ede42b1fd317'
