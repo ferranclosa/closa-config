@@ -70,4 +70,4 @@ jwt:
   authorities:
     key: roles
     level: level
-initiate-database: true
+initiate-database: false
