@@ -39,7 +39,7 @@ spring:
         connection:
           provider_disables_autocommit: true
         generate_statistics: false
-        #dialect: org.hibernate.dialect.MySQL55Dialect
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
         cache.use_second_level_cache: false
         cache.use_query_cache: false
 management:
