@@ -41,8 +41,8 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQL9Dialect
         cache.use_second_level_cache: false
         cache.use_query_cache: false
-  management:
-    endpoints:
+management:
+  endpoints:
     web:
       base-path: "/actuator"
       exposure:
