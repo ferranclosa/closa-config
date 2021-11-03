@@ -11,8 +11,7 @@ eureka:
     healthcheck:
       enabled: true
     registerWithEureka: true
-    serviceUrl:
-    https://closa-eureka-service.herokuapp.com/eureka/
+    serviceUrl: https://closa-eureka-service.herokuapp.com/eureka/
 spring:
   datasource:
     # uri: jdbc:postgressl://isbzaldjzwoaly:da6d83176e47d0bc15aa0914694dca610147c148226d7361b1b09ef490f144ab@ec2-18-202-1-222.eu-west-1.compute.amazonaws.com:5432/d948qsjguepq4u
