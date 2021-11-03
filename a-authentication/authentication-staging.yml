@@ -51,7 +51,7 @@ management:
     health:
       show-details: always
 server:
-  port: 8686
+  port: ${PORT:8686}
 global:
   trace:
     local: false
